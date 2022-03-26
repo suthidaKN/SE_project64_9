@@ -52,7 +52,7 @@
   
       form.example button {
           padding: 6px;
-          width: 200px;
+          width: 80px;
           background: #22CE00;
           color: white;
           border: none;
@@ -249,11 +249,11 @@
                     <p2>ความสามารถทางวิชาการหรือทักษะที่นิสิตควรมี </p2><br> <input type="text" name="CSkillReq"/><br><br>
 
 
-                    <div style="margin-left: 13.5%;">
+                    <div style="margin-left: 23.5%;">
                     <input type = "hidden" name = "doc" value = "student"/>
                     <input type = "hidden" name = "controller" value = "student"/>
                     <a class="btn btn-default" style="background-color: #FF5959; color: #fff; border-radius: 20px; font-family: 'IBM Plex Sans Thai', sans-serif; " href=?controller=prof&action=company>ยกเลิก</a>
-                    <button type="submit"  >เสนอสถานที่ฝึกงานใหม่</button><br><br>                        
+                    <button type="submit"  >เพิ่ม</button><br><br>                        
                   </div>
                 
                   </form>
